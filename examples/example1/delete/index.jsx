@@ -96,7 +96,7 @@ const SlidingPanel = ({
           {state => (
             <div
               style={{
-                ...defaultStyle,
+                ...(state === 'entered' || state === 'exiting') && defaultStyle,
                 ...getTransitionStyles(state),
                 display: horizontal ? 'block' : 'flex',
               }}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import SlidingPanel from 'react-sliding-side-panel';
+// import SlidingPanel from 'react-sliding-side-panel';
+import SlidingPanel from '../delete';
 import './example.css';
 
 const App = () => {
